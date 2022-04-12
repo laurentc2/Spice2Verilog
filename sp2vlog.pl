@@ -11,6 +11,15 @@
 #
 # copied from the patent : US6792579B2 expired on 2021-12-02, assigned to : LSI Corp ; Bell Semiconductor LLC
 #
+#
+# example of dfile Data for a 2 inputs AND :
+#
+#  module LIB_AND2 (A, B, Z);
+#    input  A,B;
+#    output  Z;
+#  endmodule
+#
+#
 
 ################ 
 # Set Defaults #
