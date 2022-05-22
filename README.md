@@ -22,7 +22,7 @@ Spice netlist to Verilog netlist translation
 
 *example of dfile Data for a 2 inputs AND :*
 
- module LIB_AND2 (A, B, Z);
-   input  A,B;
-   output  Z;
- endmodule
+              module LIB_AND2 (A, B, Z);
+                 input  A,B;
+                 output  Z;
+               endmodule
