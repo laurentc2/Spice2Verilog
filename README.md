@@ -13,12 +13,9 @@ Spice netlist to Verilog netlist translation
 
 *limitation* :
 
-              if in your spice netlist, the nodes are only numbers such as : X1 1 2 3 4 MY_SUBCKT
-
+              if in your spice netlist, the nodes are only numbers such as : X1 1 2 3 4 MY_SUBCK
               the node will also be numbers in the verilog netlist ... it is not good !
-              
               So, first respell your nodes such as :  X1 N1 N2 N3 N4 MY_SUBCKT
-              
               but, pay attention that you don't have other nodes in your netlist already called N1, N2, N3 or N4 ;)
               
               
