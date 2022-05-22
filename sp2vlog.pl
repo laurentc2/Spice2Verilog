@@ -124,7 +124,7 @@ foreach (@infile) {
 		# on the spice subcircuit definition:
 		for ($i=0; $i <= $#signal_names; $i++)  {
 			$subckt_pins[$i] =~ tr/A-Z/a-z/;
-			push(@pin_list, "$subckt_pins[$i]\($signal_names[$i]\)");
+			push(@pin_list, ".$subckt_pins[$i]\($signal_names[$i]\)");
 		}
 		
 		# Join the list of signal/pin pairs and print it with the module instantiation: 
