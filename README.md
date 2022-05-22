@@ -12,6 +12,7 @@ Spice netlist to Verilog netlist translation
 
 
 *limitation* :
+
               if in your spice netlist, the nodes are only numbers such as : X1 1 2 3 4 MY_SUBCKT
 
               the node will also be numbers in the verilog netlist ... it is not good !
